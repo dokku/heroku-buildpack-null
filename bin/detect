@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+BUILD_DIR=$1
+
+if [ ! -f "$BUILD_DIR/null" ]; then
+  exit 1
+fi
+
+echo "null"

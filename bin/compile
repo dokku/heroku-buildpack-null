@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+set -eo pipefail
+
+echo "Performing no commands for null buildpack"
